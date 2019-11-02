@@ -2,6 +2,7 @@ FROM alpine
 MAINTAINER Rafael Römhild <rafael@roemhild.de>
 
 ENV VERSION 1.0.0rc6
+ENV MAILPILE_IGNORE_BINARIES Tor
 
 # Install requirements
 RUN apk add --update-cache \
